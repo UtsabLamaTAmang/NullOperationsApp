@@ -24,6 +24,12 @@ namespace NullOperationsApp
             dayChecker.ShowDayOfWeek();
             Console.WriteLine("\nTask 4 completed successfully!");
 
+            //Task 5
+            Console.WriteLine("=== Task 5: Loops ===");
+            LoopTasks loopTasks = new LoopTasks();
+            loopTasks.RunLoops();
+            Console.WriteLine("\nTask 5 completed successfully!");
+
             Console.WriteLine("\nAll tasks executed successfully!");
             Console.ReadKey();
         }
