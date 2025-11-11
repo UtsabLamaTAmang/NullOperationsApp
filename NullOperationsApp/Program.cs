@@ -13,6 +13,11 @@ namespace NullOperationsApp
 
             Console.WriteLine("\nTask 2 completed successfully!\n");
 
+            // ===== Task 3: If–Else Age Check =====
+            Console.WriteLine("=== Task 3: If–Else Age Check ===");
+            AgeChecker ageChecker = new AgeChecker();
+            ageChecker.CheckAgeCategory();
+
             Console.WriteLine("\nAll tasks executed successfully!");
             Console.ReadKey();
         }
