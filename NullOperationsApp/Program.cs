@@ -30,6 +30,13 @@ namespace NullOperationsApp
             loopTasks.RunLoops();
             Console.WriteLine("\nTask 5 completed successfully!");
 
+
+            // Task 6
+            Console.WriteLine("=== Task 6: Exception Handling ===");
+            ExceptionHandling exceptionHandling = new ExceptionHandling();
+            exceptionHandling.RunExceptionHandling();
+            Console.WriteLine("\nTask 6 completed successfully!");
+
             Console.WriteLine("\nAll tasks executed successfully!");
             Console.ReadKey();
         }
